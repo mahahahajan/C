@@ -1,0 +1,30 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/pulkitmahajan/Documents/C/GoFish/card.h
+cstdlib
+-
+iostream
+-
+string
+-
+
+/Users/pulkitmahajan/Documents/C/GoFish/player.cpp
+player.h
+/Users/pulkitmahajan/Documents/C/GoFish/player.h
+
+/Users/pulkitmahajan/Documents/C/GoFish/player.h
+iostream
+-
+string
+-
+vector
+-
+card.h
+/Users/pulkitmahajan/Documents/C/GoFish/card.h
+

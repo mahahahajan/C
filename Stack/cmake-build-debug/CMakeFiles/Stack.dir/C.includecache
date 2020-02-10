@@ -1,0 +1,22 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/pulkitmahajan/Documents/C/Stack/stack_ll.c
+stack_ll.h
+/Users/pulkitmahajan/Documents/C/Stack/stack_ll.h
+stdbool.h
+-
+stdio.h
+-
+
+/Users/pulkitmahajan/Documents/C/Stack/stack_ll.h
+stdio.h
+-
+stdbool.h
+-
+
